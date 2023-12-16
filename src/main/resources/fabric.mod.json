@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "patches",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+        "useless.patches.Patches"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "patches.mixins.json"
   ],
 
   "depends": {
